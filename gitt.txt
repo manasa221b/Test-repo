@@ -1,0 +1,46 @@
+features of git:
+*distributed
+*non-linear
+*compatible                         (collaborator:a person contributing to the code)
+*branching
+*speed
+*open source
+*reliable
+*secure and economical
+-----------------------
+1.power of having a local copy of all the devlopments of the project in the local repo and can also get all the files required that r related to the prject can be fetced to the local repo
+2.compatible with existing systems and protocols
+3.git records the current state of the index in th e form of a tree. by branching. master branch.. all the other sub branches are independent of each other. the main branch has the entire project data or code.
+4. fetching data from local repo is a lot faster than remote repo
+------------------------
+Repo:a directory or storage space where ur projects live.it can be local to a folder on ur comp or it can be a storage space on the gihub. we can keep code fies,text files, image files inside a repo
+there r 2 types of repo :1 central nad
+                                            2.local repo
+------------------------------------------------
+git operations:
+1.create repo: a central repo: on the github by creating an acoount in the github
+                          local repo: we need to install git on our local systems or git clone                           download or clone repo from github ( gt init and git clone)
+github.com: signup into github
+   start prject
+create a repo (for every projet we need a unique repo so that there is no confusion                       about the data)
+   public(private is paid for)
+initialize with a readme
+craete repo
+---we can see a readme file we can make chanages to this file by clicking on the pencil icon.. and now commit changes.. add title and description to the changes made
+--------now create a local repo on the local machine??syncing repos
+link the repos local and central repos
+
+git add origin "github link"
+git pull origin master
+//this is how we update the local repo by pulling the data from the central repo//
+making changes
+````````````````
+git has an intermediate layes that resides between workspace and local rpo.when we want to make changes n th local repo we have to add those files in the index files.--------------git add----
+git commit---it refers to recording the snpshots of the rep at a given time
+                        committed snapshots will neer change unless done explicitly
+git status---- shows the list of items n the index
+git add file name
+git commit -m "comment regarding the commit"
+the git commit is to make the changes permanent to the local repository
+the -m is too display a message in linux
+the git status shows the list of content present in the index
